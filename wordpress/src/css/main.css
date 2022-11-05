@@ -1,0 +1,15 @@
+@font-face {
+   font-family: "CirceReg";
+   src: url('../src/fonts/Circe-Regular.woff2') format('woff2'),
+       url('../src/fonts/Circe-Regular.woff') format('woff');
+}
+
+@font-face {
+   font-family: "CirceBold";
+   src: url('../src/fonts/Circe-Bold.woff2') format('woff2'),
+       url('../src/fonts/Circe-Bold.woff') format('woff');
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
