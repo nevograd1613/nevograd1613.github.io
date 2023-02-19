@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/Gilroy-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Light.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Semibold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Black.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+   <div class="header__value">
+      <div class="container">
+         <div class="header__logo">
+            <a href="index.html"><img loading="lazy" src="img/svg/Logo.svg" class="image" width="" height="" alt=""></a>
+         </div>
+         <div class="header__location">
+            <img loading="lazy" src="img/svg/geolocation.svg" class="image" width="" height="" alt="">
+            <a href="https://yandex.ru/maps/-/CCUzUZeoSA" class="header__location-text">г. Уфа, ул. Советская, д. 56, офис 211</a>
+         </div>
+         <div class="header__time">
+            <img loading="lazy" src="img/svg/workTime.svg" class="image" width="" height="" alt="">
+            <p class="header__time-text">Пн-пт: с 08:00 до 21:00
+               Работаем по всей России</p>
+         </div>
+         <div class="header__phone">
+            <div class="header__phone__number">
+               <img loading="lazy" src="img/svg/phone.svg" class="image header__phone__number-img" width="" height="" alt="">
+               <a href="tel:+78002226120" class="header__phone__number-link">+7 (800) 222 6120</a>
+               <p class="header__phone__number-text">Ежедневно с 08:00 до 21:00</p>
+            </div>
+            <a href="#" class="header__phone__btn popup__open">
+               Заказать звонок
+            </a>
+         </div>
+         <div class="header__nav-burger">
+            <button class="burger" aria-label="Закрыть меню" aria-expanded="true" data-burger></button>
+             <div class="burger__lines">
+               <span class="burger__line"><a href="index.html">Главная</a></span>
+               <span class="burger__line"><div class="burger__submenu">СРО<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Лицензии<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">НРС<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Сертификаты<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Обучение<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Охрана труда<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><a href="blog.html">Блог</a></span>
+               <span class="burger__line"><a href="company.html">О компании</a></span>
+               <span class="burger__line"><a href="contacts.html">Контакты</a></span>
+            </div>
+         </div>
+      </div>
+   </div>
+  <div class="container">
+   <div class="header__menu">
+      <nav class="header__nav">
+         <ul class="header__nav__items">
+            <a href="index.html"><li class="header__nav__item">Главная</li></a>
+            <li class="header__nav__item"><div class="header__submenu">СРО<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+            <ul class="header__submenu__list">
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 1</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 2</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 3</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 4</a></li>
+            </ul></div></li>
+            <li class="header__nav__item"><div class="header__submenu">Лицензии<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span><ul class="header__submenu__list">
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+            </ul></div></li>
+            <li class="header__nav__item"><div class="header__submenu">НРС<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+               <ul class="header__submenu__list">
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></div></li>
+               <li class="header__nav__item"><div class="header__submenu">Сертификаты<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                  <ul class="header__submenu__list">
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                  </ul></div></li>
+                  <li class="header__nav__item"><div class="header__submenu">Обучение<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                     <ul class="header__submenu__list">
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                     </ul></div></li>
+                     <li class="header__nav__item"><div class="header__submenu">Охрана труда<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                        <ul class="header__submenu__list">
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                        </ul></div></li>
+            <a href="blog.html"><li class="header__nav__item">Блог</li></a>
+            <a href="company.html"><li class="header__nav__item">О компании</li></a>
+            <a href="contacts.html"><li class="header__nav__item">Контакты</li></a>
+         </ul>
+      </nav>
+   </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero-blog">
+   <div class="container">
+      <h2 class="title">Скидки на все юридические услуги</h2>
+      <div class="hero-blog__wrapper">
+         <div class="hero-article-blog__item">
+            <div class="hero-article-blog__wrapper hero-article-blog__wrapper-1">
+               <div class="hero-article-blog__title">Заголовок статьи</div>
+               <p class="hero-article-blog__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+                  <br><br>
+               Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+                  <br><br>
+               Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+               </p>
+            </div>
+            <div class="hero-article-blog__wrapper">
+               <div class="hero-article-blog___item">
+                  <div class="hero-article-blog__title">Заголовок статьи</div>
+                  <p class="hero-article-blog__text hero-article-blog__text-wrap">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+                  </p>
+               </div>
+               <div class="hero-article-blog__img">
+                  <picture data-fancybox href="img/articleBlog1.jpg">
+                    <source srcset="img/articleBlog1.avif" type="image/avif">
+                    <source srcset="img/articleBlog1.webp" type="image/webp">
+                    <img loading="lazy" src="img/articleBlog1.jpg" class="image" width="" height="" alt="">
+                  </picture>
+               </div>
+            </div>
+            <div class="hero-article-blog__wrapper">
+               <div class="hero-article-blog__img">
+                  <picture data-fancybox href="img/articleBlog2.jpg">
+                    <source srcset="img/articleBlog2.avif" type="image/avif">
+                    <source srcset="img/articleBlog2.webp" type="image/webp">
+                    <img loading="lazy" src="img/articleBlog2.jpg" class="image" width="" height="" alt="">
+                  </picture>
+               </div>
+               <div class="hero-article-blog___item">
+                  <div class="hero-article-blog__title">Заголовок статьи</div>
+                  <p class="hero-article-blog__text hero-article-blog__text-wrap">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+                  </p>
+               </div>
+            </div>
+            <div class="hero-article-blog__wrapper hero-article-blog__wrapper-1">
+               <div class="hero-article-blog__title">Заголовок статьи</div>
+               <p class="hero-article-blog__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+               </p>
+               <div class="hero-article-blog__subtitle">Подзаголовок</div>
+               <ul class="hero-article-blog__list">
+                  <li class="hero-article-blog__list-item">Vivamus cum eu pulvinar rhoncus mi mattis </li>
+                  <li class="hero-article-blog__list-item">Arcu dictum ac et nibh at pharetra diam pretium amet</li>
+                  <li class="hero-article-blog__list-item">Тibh at pharetra diam pretium amet</li>
+               </ul>
+               <p class="hero-article-blog__text">
+                  Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+                  <br><br>
+                  Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.
+               </p>
+            </div>
+         </div>
+         <div class="hero-blog__item">
+            <div class="maintenance">
+   <div class="maintenance__title">Содержание статьи</div>
+   <ul class="maintenance__list">
+      <li class="maintenance__list-item">Первый пункт</li>
+      <li class="maintenance__list-item">Второй пункт</li>
+      <li class="maintenance__list-item">Третий пункт</li>
+      <li class="maintenance__list-item">Четвертый пункт</li>
+      <li class="maintenance__list-item">Пятый пункт</li>
+      <li class="maintenance__list-item">Шестой пункт</li>
+      <li class="maintenance__list-item">Седьмой пункт</li>
+   </ul>
+</div>
+            <div class="mini-contacts">
+   <a href="#" class="mini-contacts__btn">Показать еще</a>
+   <div class="header__phone__number">
+      <img loading="lazy" src="img/svg/phoneWhite.svg" class="image header__phone__number-img" width="" height="" alt="">
+      <a href="tel:+78002226120" class="header__phone__number-link">+7 (800) 222 6120</a>
+      <p class="header__phone__number-text">Ежедневно с 08:00 до 21:00</p>
+   </div>
+   <hr>
+   <div class="mini-contacts__mails">
+      <a href="mailto:info@vdpartner.ru" class="mini-contacts-link">info@vdpartner.ru</a>
+      <div class="header__phone__number-text">Электронный адрес круглосуточно</div>
+   </div>
+   <hr>
+   <div class="mini-contacts__adr">
+      <a href="#" class="mini-contacts-link">г. Уфа, ул. Советская, <br>д. 56, офис 211</a>
+      <div class="header__phone__number-text">Режим работы офиса с 08:00 до 21:00</div>
+   </div>
+</div>
+            <div class="mini-sertificats">
+   <div class="mini-sertificats__wrapper">
+      <h3 class="title">Сертификаты</h3>
+      <div class="mini-sertificats__wrapper__btns">
+         <div class="mini-sertificats__swiper-prev"></div>
+         <div class="mini-sertificats__swiper-next"></div>
+      </div>
+   </div>
+   <div class="mini-sertificats__item">
+      <div class="swiper mini-sertificats__swiper">
+         <div class="swiper-wrapper mini-sertificats__swiper-wrapper">
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat1.png" alt="">
+            </div>
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat2.png" alt="">
+            </div>
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat1.png" alt="">
+            </div>
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat2.png" alt="">
+            </div>
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat1.png" alt="">
+            </div>
+            <div class="swiper-slide mini-sertificats__swiper-slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+             <img src="img/miniSertificat2.png" alt="">
+            </div>
+         </div>
+       </div>
+   </div>
+</div>
+            <div class="mini-partners">
+   <div class="mini-sertificats__wrapper">
+      <h3 class="title">Нам доверяют</h3>
+      <div class="mini-sertificats__wrapper__btns">
+         <div class="mini-partners__swiper-prev"></div>
+         <div class="mini-partners__swiper-next"></div>
+      </div>
+   </div>
+   <div class="mini-partners__item">
+      <div class="swiper mini-partners__swiper">
+         <div class="swiper-wrapper mini-partners__swiper-wrapper">
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+            <div class="swiper-slide" data-fancybox="mini-partners" href="img/miniPartners.jpg">
+             <img src="img/miniPartners.jpg" alt="">
+            </div>
+         </div>
+       </div>
+   </div>
+</div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="add-comments">
+   <div class="container">
+      <h2 class="title">Добавьте комментарий</h2>
+      <form action="#" class="add-comments__form">
+         <div class="add-comments__form__wrapper">
+            <div class="add-comments__form__item">
+               <label class="form__label">
+                  <input type="text" name="Имя" class="input-reset form__input" placeholder="Ваше имя" required>
+               </label>
+               <label class="form__label">
+                  <input type="tel" name="Телефон" class="input-reset form__input" placeholder="Ваш телефон" required>
+             </label>
+             <button class="add-comments__form__btn">Оставить заявку</button>
+            </div>
+            <div class="add-comments__form__item add-comments__form__item-rigth">
+               <label for="form__label">
+                  <input type="textarea" placeholder="Оставьте комментарий" cols="40" rows="6" required>
+               </label>
+            </div>
+         </div>
+      </form>
+   </div>
+</section>
+      <section class="comments">
+   <div class="container">
+      <h2 class="title">Комментарии</h2>
+      <div class="comments__commetn">
+         <div class="comments__wrapper">
+            <div class="comments__img">
+               <img loading="lazy" src="img/svg/avatar1.svg" class="image" width="" height="" alt="">
+            </div>
+            <div class="comments__comment__item">
+               <div class="comments__comment__item-name">Липатова Анна Владимировна</div>
+               <div class="comments__comment__item-descr">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. <br><br>Arcu dictum ac et nibh at pharetra diam pretium amet.</div>
+               <div class="comments__comment__item__menu">
+                  <div class="comments__comment__item__menu-time">Создано  10.07.2022  15:30</div>
+                  <div class="comments__comment__item__menu-changed">,   изменено  10.07.2022  15:32</div>
+                  <div class="comments__comment__item__menu-send">Ответить</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="comments__subcomment">
+         <div class="comments__wrapper">
+            <div class="comments__img">
+               <img loading="lazy" src="img/svg/avatar2.svg" class="image" width="" height="" alt="">
+            </div>
+            <div class="comments__comment__item">
+               <div class="comments__comment__item-name">Карпенков Сергей Витальевич <span>Администратор</span></div>
+               <div class="comments__comment__item__send">
+                  <div class="comments__comment__item__send-name">Липатова Анна Владимировна</div>
+                  <div class="comments__comment__item__send-descr">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In...</div>
+               </div>
+               <div class="comments__comment__item-descr">Arcu dictum ac et nibh at pharetra diam pretium amet.</div>
+               <div class="comments__comment__item__menu">
+                  <div class="comments__comment__item__menu-time">Создано  10.07.2022  15:30</div>
+                  <div class="comments__comment__item__menu-changed">,   изменено  10.07.2022  15:32</div>
+                  <div class="comments__comment__item__menu-send">Ответить</div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="comments__commetn">
+         <div class="comments__wrapper">
+            <div class="comments__img">
+               <img loading="lazy" src="img/svg/avatar1.svg" class="image" width="" height="" alt="">
+            </div>
+            <div class="comments__comment__item">
+               <div class="comments__comment__item-name">Липатова Анна Владимировна</div>
+               <div class="comments__comment__item-descr">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. <br><br>Arcu dictum ac et nibh at pharetra diam pretium amet.</div>
+               <div class="comments__comment__item__menu">
+                  <div class="comments__comment__item__menu-time">Создано  10.07.2022  15:30</div>
+                  <div class="comments__comment__item__menu-changed">,   изменено  10.07.2022  15:32</div>
+                  <div class="comments__comment__item__menu-send">Ответить</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="partners">
+   <div class="container">
+      <h2 class="title partners__title">Наши партнеры</h2>
+      <div class="swiper partners__swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="partners__rectagle">
+               <div class="partners__img" data-fancybox="partners" href="img/part1.png">
+                  <img src="img/part1.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle">
+               <div class="partners__img" data-fancybox="partners" href="img/part2.png">
+                  <img src="img/part2.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part3.jpg">
+               <div class="partners__img">
+                  <img src="img/part3.jpg" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part4.jpg">
+               <div class="partners__img">
+                  <img src="img/part4.jpg" alt="">
+                  <div class="partners__text">АССОЦИАЦИЯ САМОРЕГУЛИРУЕМАЯ ОРГАНИЗАЦИЯ
+                     МежРегионПроект</div>
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part1.png">
+               <div class="partners__img">
+                  <img src="img/part1.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part2.png">
+               <div class="partners__img">
+                  <img src="img/part2.png" alt="">
+               </div>
+            </div>
+           </div>
+        </div>
+        <div class="partners__swiper-next"></div>
+        <div class="partners__swiper-prev"></div>
+      </div>
+   </div>
+</section>
+      <section class="quality">
+   <div class="container">
+      <h2 class="title quality__title">Качества нашей работы - это довольные клиенты</h2>
+      <div class="swiper quality__slider">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+        </div>
+        <div class="quality__slider-next"></div>
+        <div class="quality__slider-prev"></div>
+      </div>
+   </div>
+</section>
+      <section class="question">
+   <div class="container">
+      <h2 class="title">Частые вопросы</h2>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Как на сайте СРО строителей заказчик актуальную информацию по юридическому лицу, включенному в вашу СРО?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure, porro optio repellendus aut laborum, minima minus rerum nam a necessitatibus hic corporis amet odit consequatur? Laboriosam aspernatur voluptas beatae?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Мы вступили в СРО, заказчик запросил подтверждающий документ. Какая стоимость выписки СРО и как долго ее получать?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut magnam eaque ad quisquam deserunt dolorum, laudantium, nobis unde optio amet qui quaerat voluptas repellat quis eos illo. Cumque, eum?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Если компания зарегистрирована в Башкортостане, может ли она вступить в СРО Татарстана?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vero dignissimos explicabo quis quas, nihil rerum doloribus assumenda consequuntur, eum placeat, et corrupti voluptatem dolorem quia tenetur facere natus voluptatibus!</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">В какие сроки мы можем вступить в СРО строителей?</div>
+            <div class="question__item-answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod omnis aut deleniti numquam autem ipsam consequuntur eaque iusto, architecto maxime recusandae, tempore, culpa sit impedit voluptatum laborum aliquam! Repudiandae, sed!</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Как на сайте СРО строителей заказчик актуальную информацию по юридическому лицу, включенному в вашу СРО?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit maxime aperiam temporibus officiis, ab alias tenetur illum repellendus, a et quisquam voluptates, omnis sed. Suscipit magnam consequuntur provident facilis.</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Мы вступили в СРО, заказчик запросил подтверждающий документ. Какая стоимость выписки СРО и как долго ее получать?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, mollitia laboriosam ipsam dolorem necessitatibus fugiat nulla magni omnis nemo quia deserunt expedita sit dignissimos ullam porro id possimus! Dolor, dolorum?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+   </div>
+</section>
+      <section class="contacts">
+   <div class="container">
+      <h2 class="title">Контакты</h2>
+      <div class="contacts__items">
+         <div class="contacts__links">
+         <p class="contacts__links-text">Свяжитесь с нами удобным для вас способом, и мы ответим на все ваши вопросы</p>
+         <div class="contacts__links-name">Телефон:</div>
+         <a href="tel:+78002226120" class="contacts__links-link">+7 (800) 222 6120</a>
+         <div class="contacts__links-name">Почта:</div>
+         <a href="mailto:info@vdpartner.ru" class="contacts__links-link">info@vdpartner.ru</a>
+         <div class="contacts__links-name">Социальные сети:</div>
+         <div class="contacts__links-social">
+            <a href="#" class="contacts__links-watsap">
+               <img loading="lazy" src="img/svg/wa.svg" class="image" width="" height="" alt="">
+            </a>
+            <a href="#" class="contacts__links-telegram">
+               <img loading="lazy" src="img/svg/tg.svg" class="image" width="" height="" alt="">
+            </a>
+            <a href="#" class="contacts__links-viber">
+               <img loading="lazy" src="img/svg/vb.svg" class="image" width="" height="" alt="">
+            </a>
+         </div>
+         </div>
+         <div class="contacts__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A257e370dd3d11d1389ec21f479d67b70284de3e5ff28ae346d513914dbad6436&amp;source=constructor" width="790" height="325" frameborder="0"></iframe>
+         </div>
+      </div>
+   </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+   <div class="footer__menu">
+      <div class="footer__links">
+         <div class="footer__links-logo">
+            <a href="#"><img loading="lazy" src="img/svg/footerLogo.svg" class="image" width="" height="" alt=""></a>
+         </div>
+         <div class="footer__links-inn">
+            <p class="footer-text">ИНН 7814562777</p>
+         </div>
+         <div class="footer__links-ogrn">
+            <p class="footer-text">ОГРН 1127847062805</p>
+         </div>
+         <div class="footer__links__contacts">
+            <div class="footer__links__contacts-label">Контакты</div>
+            <div class="footer__links__contacts-name">Телефон:</div>
+            <a href="tel:+78002226120" class="footer__links__contacts-link">+7 (800) 222 6120</a>
+            <div class="footer__links__contacts-name">Почта:</div>
+            <a href="mailto:info@vdpartner.ru" class="footer__links__contacts-link">info@vdpartner.ru</a>
+            <div class="footer__links__contacts-name">Социальные сети:</div>
+            <div class="footer__links__contacts-social">
+               <a href="#" class="footer__links__contacts-watsap">
+                  <img loading="lazy" src="img/svg/wa.svg" class="image" width="" height="" alt="">
+               </a>
+               <a href="#" class="footer__links__contacts-telegram">
+                  <img loading="lazy" src="img/svg/tg.svg" class="image" width="" height="" alt="">
+               </a>
+               <a href="#" class="footer__links__contacts-viber">
+                  <img loading="lazy" src="img/svg/vb.svg" class="image" width="" height="" alt="">
+               </a>
+            </div>
+         </div>
+         <a class="footer__links-btn popup__open">Оставить заявку</a>
+      </div>
+      <div class="footer__nav">
+         <div class="footer__nav-name">Навигация</div>
+         <nav class="footer__nav__items">
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">СРО</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Строительное СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Проектное СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">СРО изыскания</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Вступление в СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сопровождение проверок СРО</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">НРС</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС строителей(Нострой)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС проектировщиков (Ноприз)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС изыскателей(Ноприз)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Внесение в НРС</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Услуги по подбору специалистов НРС</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Лицензии</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Лицензия МЧС</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия Минкульта</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Атомная лицензия</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия на опасные отходы 1-4 класс</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия на черные 
+                     и цветные металлы</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Охрана труда</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Специальная оценка условий труда(СОУТ)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Оценка профессиональных рисков (ОПР)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Система управления охраной труда(СУОТ)</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Сертификаты</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">ИСО 9001, 14001, 45001, 50001</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты по пожарной безопасности</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты по промышленной безопасности</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты на продукцию</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Оценка(индекс) деловой репутации</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификат судебного эксперта</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Разработка технических условий</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Отказное письмо</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Обучение</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Охрана труда</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Пожарная безопасность</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Охрана труда на высоте</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Повышение квалификации</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Рабочие профессии</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Профессиональная переподготовка</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Неразрушающий контроль</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">О компании</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Контакты</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Отзывы</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Блог</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Главная</li>
+               </a>
+            </ul>
+         </nav>
+      </div>
+   </div>
+   <hr class="footer__hr">
+   <div class="footer__policy">
+      <a href="#" class="footer__policy-partner">© Деловой партнер. Все права защищены</a>
+      <a href="#" class="footer__policy-politic">Политика конфиденциальности</a>
+   </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <div class="popup">
+   <div class="container">
+      <div class="popup__modal">
+         <div class="popup__title">Оставьте заявку </div>
+         <p class="popup__text">Оставьте свои контактные данные и наш менеджер свяжется с вами в ближайшее время и проведет бесплатную консультацию</p>
+         <form action="#" class="popup__form">
+            <label class="form__label">
+               <input type="text" name="Имя" class="input-reset form__input" placeholder="Ваше имя" required>
+             </label>
+             <label class="form__label">
+                 <input type="tel" name="Телефон" class="input-reset form__input" placeholder="Телефон" required>
+            </label>
+             <button class="application__form__btn">Оставить заявку</button>
+             <div class="application__form-checkbox">
+                 <label for="form__label" class="check">
+                    <input type="checkbox" checked="yes" required>
+                 </label>
+                 <p class="application__form-text">При нажатии на кнопку, вы соглашаетесь с политикой <a href="#">конфиденциальности сайта</a></p>
+             </div>
+         </form>
+         <div class="popup__close">
+            <img loading="lazy" src="img/svg/close.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+   </div>
+</div>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,886 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>MaxGraph New Site</title>
+  <link rel="preload" href="fonts/Gilroy-Light.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Light.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Regular.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Medium.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Semibold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Semibold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Bold.woff" as="font" type="font/woff" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Black.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Gilroy-Black.woff" as="font" type="font/woff" crossorigin>
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"/>
+  <script defer src="js/main.js"></script>
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+   <div class="header__value">
+      <div class="container">
+         <div class="header__logo">
+            <a href="index.html"><img loading="lazy" src="img/svg/Logo.svg" class="image" width="" height="" alt=""></a>
+         </div>
+         <div class="header__location">
+            <img loading="lazy" src="img/svg/geolocation.svg" class="image" width="" height="" alt="">
+            <a href="https://yandex.ru/maps/-/CCUzUZeoSA" class="header__location-text">г. Уфа, ул. Советская, д. 56, офис 211</a>
+         </div>
+         <div class="header__time">
+            <img loading="lazy" src="img/svg/workTime.svg" class="image" width="" height="" alt="">
+            <p class="header__time-text">Пн-пт: с 08:00 до 21:00
+               Работаем по всей России</p>
+         </div>
+         <div class="header__phone">
+            <div class="header__phone__number">
+               <img loading="lazy" src="img/svg/phone.svg" class="image header__phone__number-img" width="" height="" alt="">
+               <a href="tel:+78002226120" class="header__phone__number-link">+7 (800) 222 6120</a>
+               <p class="header__phone__number-text">Ежедневно с 08:00 до 21:00</p>
+            </div>
+            <a href="#" class="header__phone__btn popup__open">
+               Заказать звонок
+            </a>
+         </div>
+         <div class="header__nav-burger">
+            <button class="burger" aria-label="Закрыть меню" aria-expanded="true" data-burger></button>
+             <div class="burger__lines">
+               <span class="burger__line"><a href="index.html">Главная</a></span>
+               <span class="burger__line"><div class="burger__submenu">СРО<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="services.html">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Лицензии<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">НРС<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Сертификаты<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Обучение<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><div class="burger__submenu">Охрана труда<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span></div><ul class="burger__submenu__list">
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="burger__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></span>
+               <span class="burger__line"><a href="blog.html">Блог</a></span>
+               <span class="burger__line"><a href="company.html">О компании</a></span>
+               <span class="burger__line"><a href="contacts.html">Контакты</a></span>
+            </div>
+         </div>
+      </div>
+   </div>
+  <div class="container">
+   <div class="header__menu">
+      <nav class="header__nav">
+         <ul class="header__nav__items">
+            <a href="index.html"><li class="header__nav__item">Главная</li></a>
+            <li class="header__nav__item"><div class="header__submenu">СРО<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+            <ul class="header__submenu__list">
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 1</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 2</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 3</a></li>
+               <li class="header__submenu__list-link"><a href="services.html">Пункт меню 4</a></li>
+            </ul></div></li>
+            <li class="header__nav__item"><div class="header__submenu">Лицензии<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span><ul class="header__submenu__list">
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+               <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+            </ul></div></li>
+            <li class="header__nav__item"><div class="header__submenu">НРС<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+               <ul class="header__submenu__list">
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                  <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+               </ul></div></li>
+               <li class="header__nav__item"><div class="header__submenu">Сертификаты<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                  <ul class="header__submenu__list">
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                     <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                  </ul></div></li>
+                  <li class="header__nav__item"><div class="header__submenu">Обучение<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                     <ul class="header__submenu__list">
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                        <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                     </ul></div></li>
+                     <li class="header__nav__item"><div class="header__submenu">Охрана труда<span><img loading="lazy" src="img/svg/navArrow.svg" class="image header__phone__number-img" width="" height="" alt=""></span>
+                        <ul class="header__submenu__list">
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 1</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 2</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 3</a></li>
+                           <li class="header__submenu__list-link"><a href="#">Пункт меню 4</a></li>
+                        </ul></div></li>
+            <a href="blog.html"><li class="header__nav__item">Блог</li></a>
+            <a href="company.html"><li class="header__nav__item">О компании</li></a>
+            <a href="contacts.html"><li class="header__nav__item">Контакты</li></a>
+         </ul>
+      </nav>
+   </div>
+  </div>
+</header>
+
+    <main class="main">
+      <section class="hero-services">
+   <div class="container">
+      <div class="hero-services__wrapper">
+         <div class="hero-services__item">
+            <h2 class="title">Вступить в сро изыскателей</h2>
+            <div class="hero-services__subtitle">И законно вести инженерно-геологические работы</div>
+            <div class="hero-services__application">Оставьте заявку прямо сейчас</div>
+            <form action="#" class="hero-services__form">
+               <label class="form__label">
+                  <input type="text" name="Имя" class="input-reset form__input" placeholder="Ваше имя" required>
+                </label>
+                <label class="form__label">
+                  <input type="tel" name="Телефон" class="input-reset form__input" placeholder="Телефон" required>
+               </label>
+               <button class="application__form__btn">Оставить заявку</button>
+               <div class="application__form-checkbox">
+                  <label for="form__label" class="check">
+                     <input type="checkbox" checked="yes" required>
+                  </label>
+                  <p class="application__form-text">При нажатии на кнопку, вы соглашаетесь с политикой <a href="#">конфиденциальности сайта</a></p>
+              </div>
+            </form>
+         </div>
+         <div class="hero-services__item">
+            <div class="hero-services__services">
+               <div class="hero-services__services-title">Услуги</div>
+               <ul class="hero-services__services-list">
+                  <li class="hero-services__services-item">Строительное СРО</li>
+                  <li class="hero-services__services-item">Проектное СРО</li>
+                  <li class="hero-services__services-item">Изыскательное СРО</li>
+                  <li class="hero-services__services-item">Вступление в СРО</li>
+                  <li class="hero-services__services-item">Сопровождение проверок СРО</li>
+               </ul>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="works">
+   <div class="container">
+      <div class="works__wrapper">
+         <div class="works__item">
+            <h2 class="title">Мы работаем с СРО, которым можно доверять</h2>
+            <a class="works__btn popup__open">Вступить в надежное СРО</a>
+         </div>
+         <div class="works__item">
+            <div class="works__list">
+               <div class="works__list__item">
+                  <div class="works__list__item-title">Работаем с разными СРО, исходя из вашей ситуации</div>
+                  <div class="works__list__item-descr">Подбираем СРО в соответствии с вашими индивидуальными потребностями и поможем вступить в любое по вашему выбору</div>
+               </div>
+               <div class="works__list__item">
+                  <div class="works__list__item-title">СРО прошедшие проверку Ростехнадзора</div>
+                  <div class="works__list__item-descr">Все СРО, с которыми работаем, успешно прошли проверки у РосТехНадзора и соответствует 372-ФЗ РФ</div>
+               </div>
+               <div class="works__list__item">
+                  <div class="works__list__item-title">Возраст СРО - от 5 лет</div>
+                  <div class="works__list__item-descr">Мы работаем с проверенными СРО, которые имеют отлаженную систему документооборота и взаимодействия со своими членами</div>
+               </div>
+               <div class="works__list__item">
+                  <div class="works__list__item-title">Не менее 300 членов</div>
+                  <div class="works__list__item-descr">Мы работаем с СРО, численность членов которых более 300. Чем больше членов - тем больше размер общего компенсационного фонда</div>
+               </div>
+               <div class="works__list__item">
+                  <div class="works__list__item-title">Наличие открытого
+                     реестра членов</div>
+                  <div class="works__list__item-descr">Согласно законодательству, вступающие в СРО должны подавать информацию в реестр НОСТРОЙ и НОПРИЗ. С нами вы можете не беспокоиться, мы всегда подаем вовремя</div>
+               </div>
+               <div class="works__list__item">
+                  <div class="works__list__item-title">100% сохранность компенсационного фонда</div>
+                  <div class="works__list__item-descr">Сотрудничаем с СРО, у которых компенсационные фонды переведены на специальные счета. В случае причинении вреда или нарушения обязательств членами СРО, деньги будут в наличии</div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="article">
+   <div class="container">
+      <div class="article__wrapper">
+         <div class="article__item">
+            <h2 class="title">Заголовок</h2>
+            <p class="article__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.</p>
+            <p class="article__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.</p>
+            <p class="article__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet.</p>
+         </div>
+         <div class="article__img">
+            <picture data-fancybox href="img/article.jpg">
+              <source srcset="img/article.avif" type="image/avif">
+              <source srcset="img/article.webp" type="image/webp">
+              <img loading="lazy" src="img/article.jpg" class="image" width="" height="" alt="">
+            </picture>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="stages">
+   <div class="container">
+      <h2 class="title">Этапы работ</h2>
+      <div class="stages__wrapper">
+         <hr>
+         <div class="stages__item">
+            <div class="stages__item-number">01</div>
+            <div class="stages__item__main">
+               <div class="stages__item__main-title">Заголовок этап 1</div>
+               <p class="stages__item__main-text">Сначала необходимо определиться с направлением СРО и выбрать необходимые виды работ из общего классификатора</p>
+               <ul class="stages__item__main-list">
+                  <li class="stages__item__main-list-item">Пункт</li>
+                  <li class="stages__item__main-list-item">Пункт</li>
+                  <li class="stages__item__main-list-item">Пункт</li>
+               </ul>
+            </div>
+         </div>
+         <hr>
+         <div class="stages__item">
+            <div class="stages__item-number">02</div>
+            <div class="stages__item__main">
+               <div class="stages__item__main-title">Заголовок этап 2</div>
+               <p class="stages__item__main-text">Подготовить и подать пакет документов в СРО. Перечень документов и прочие требования зависят от выбранной СРО. Документы проверяются до 30 дней, и если заявление будет одобрено, то уже через три дня после принятого решения вы сможете приступать к выполнению заказов.</p>
+            </div>
+         </div>
+         <hr>
+         <div class="stages__item">
+            <div class="stages__item-number">03</div>
+            <div class="stages__item__main">
+               <div class="stages__item__main-title">Заголовок этап 3</div>
+               <p class="stages__item__main-text">На данном этапе вы заключаете договор с СРО. При заключении договора необходимо оплатить вступительные взносы и взносы в компенсационный фонд (на них зачастую предоставляется рассрочка)</p>
+            </div>
+         </div>
+         <hr>
+         <div class="stages__item">
+            <div class="stages__item-number">04</div>
+            <div class="stages__item__main">
+               <div class="stages__item__main-title">Заголовок этап 4</div>
+               <p class="stages__item__main-text">В итоге фирма получает доступ к деятельности. Именно на его основании будет в дальнейшем выполняться работа</p>
+            </div>
+         </div>
+         <hr>
+      </div>
+   </div>
+</section>
+      <section class="right">
+   <div class="container">
+      <h2 class="title">Кому необходим допуск СРО изыскателей</h2>
+      <div class="right__wrapper">
+         <div class="right__item">
+            <picture data-fancybox href="img/right.jpg">
+              <source srcset="img/right.avif" type="image/avif">
+              <source srcset="img/right.webp" type="image/webp">
+              <img loading="lazy" src="img/right.jpg" class="image" width="" height="" alt="">
+            </picture>
+         </div>
+         <div class="right__item">
+            <p class="right__item-text">От результатов геодезических инженерных изысканий зависят какие будут приниматься решения по закладке фундамента, подземных этажей и коммуникаций. Компании, специализирующиеся в области инженерных изысканий, стремятся вступить в СРО, так как это дает возможность расширить бизнес и осуществлять свою деятельность на законных основаниях.</p>
+            <div class="right__item__list-title">Вступать в СРО изыскателей обязательно, если:</div>
+            <ul class="right__item__list">
+               <li class="right__item__list-item">Ожидаются контракты на сумму от 3 млн рублей;</li>
+               <li class="right__item__list-item">Планируется участие в тендерах государственного и муниципального значения;</li>
+               <li class="right__item__list-item">Предполагается участие в торгах, проводимых на конкурсной основе;</li>
+               <li class="right__item__list-item">Деятельность будет проводиться на особо-опасных, технически сложных или уникальных объектах;</li>
+               <li class="right__item__list-item">Ведутся определенные виды работ из перечня по приказу Минрегионразвития №624.</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="accreditation">
+   <div class="container">
+      <h2 class="title">Наши аккредитации в СРО</h2>
+      <div class="accreditation__wrapper">
+         <div class="accreditation__item">
+            <p class="accreditation__text">Деятельность компании “Деловой партнер” осуществляется легально, в строгом соответствии законам. Наши аккредитации в крупнейших СРО позволяют клиентам быстро и без проблем получать допуски к осуществлению нужных работ. <br><br>
+            Качество работы сотрудников отслеживается и регулярно проводятся мероприятия по его повышению, а именно: профессиональные обучения, аттестации, участие в профильных конференциях НОПРИЗ и РосТехНадзора.</p>
+         </div>
+         <div class="accreditation__item">
+            <div class="swiper accreditation__swiper">
+               <div class="swiper-wrapper">
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+                  <div class="swiper-slide accreditation__slide" data-fancybox="accreditation" href="img/sertificats.jpg">
+                   <img src="img/sertificats.jpg" alt="">
+                  </div>
+               </div>
+               <div class="accreditation__swiper-next"></div>
+               <div class="accreditation__swiper-prev"></div>
+             </div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="documents">
+   <div class="container">
+      <h2 class="title">Какие документы нужны для вступления в СРО</h2>
+      <div class="documents__wrapper">
+         <div class="documents__item">
+            <div class="documents__item-name">Для ООО<span><img loading="lazy" src="img/svg/documents.svg" class="image" width="" height="" alt=""></span></div>
+            <ul class="documents__item-list">
+               <li class="documents__item-items">Реквизиты компании;</li>
+               <li class="documents__item-items">Решение или протокол о создании организации;</li>
+               <li class="documents__item-items">Приказ о назначении директора;</li>
+               <li class="documents__item-items">Паспорт директора;</li>
+               <li class="documents__item-items">Устав;</li>
+               <li class="documents__item-items">Договор аренды на юр. адрес;</li>
+               <li class="documents__item-items">Страховка;</li>
+               <li class="documents__item-items">Документы на специалистов (дипломы, трудовые книжки, УПК);</li>
+               <li class="documents__item-items">Протоколы Ростехнадзора (на опасные работы).</li>
+            </ul>
+         </div>
+         <div class="documents__item">
+            <div class="documents__item-name">Для ИП<span><img loading="lazy" src="img/svg/documents.svg" class="image" width="" height="" alt=""></span></div>
+            <ul class="documents__item-list">
+               <li class="documents__item-items">Реквизиты компании;</li>
+               <li class="documents__item-items">Решение или протокол о создании организации;</li>
+               <li class="documents__item-items">Приказ о назначении директора;</li>
+               <li class="documents__item-items">Паспорт директора;</li>
+               <li class="documents__item-items">Устав;</li>
+               <li class="documents__item-items">Договор аренды на юр. адрес;</li>
+               <li class="documents__item-items">Страховка;</li>
+               <li class="documents__item-items">Документы на специалистов (дипломы, трудовые книжки, УПК);</li>
+               <li class="documents__item-items">Протоколы Ростехнадзора (на опасные работы).</li>
+            </ul>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="search-documentation">
+   <div class="container">
+      <h2 class="title">Проверим документацию</h2>
+      <div class="search-documentation__wrapper">
+         <div class="search-documentation__item">
+            <picture data-fancybox href="img/searchdoc.jpg">
+            <source srcset="img/searchdoc.avif" type="image/avif">
+            <source srcset="img/searchdoc.webp" type="image/webp">
+            <img loading="lazy" src="img/searchdoc.jpg" class="image" width="" height="" alt="">
+            </picture>
+         </div>
+         <div class="search-documentation__item">
+            <p class="search-documentation__text">Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. <br><br>
+            Lorem ipsum dolor sit amet consectetur. Eleifend nibh volutpat tellus in elit. Vivamus cum eu pulvinar rhoncus mi mattis id in. In congue velit et in. Arcu dictum ac et nibh at pharetra diam pretium amet. </p>
+            <form action="#" class="search-documentation__form">
+               <label class="form__label">
+                  <input type="text" name="Имя" class="input-reset form__input" placeholder="Ваше имя" required>
+                </label>
+                <label class="form__label search-documentation__form__label">
+                    <input type="tel" name="Телефон" class="input-reset form__input" placeholder="Телефон" required>
+               </label>
+                <button class="application__form__btn">Оставить заявку</button>
+                <div class="application__form-checkbox">
+                    <label for="form__label" class="check">
+                       <input type="checkbox" checked="yes" required>
+                    </label>
+                    <p class="application__form-text">При нажатии на кнопку, вы соглашаетесь с политикой <a href="#">конфиденциальности сайта</a></p>
+                </div>
+            </form>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="calculator">
+   <div class="container">
+      <h2 class="title">Проверим документацию</h2>
+      <div class="calculator__wrapper">
+         <div class="calculator__left">
+            <div class="calculator__left-title">Стоимость оформления СРО за 1 день</div>
+            <div class="calculator__left__list">
+               <div class="calculator__left-number">1</div>
+               <div class="calculator__left__items">
+                  <div class="calculator__left__list__item">
+                     <div class="calculator__left__list__item-name">от 50 000 ₽</div>
+                     <div class="calculator__left__list__item-descr">Компенсационный фонд</div>
+                  </div>
+                  <div class="calculator__left__list__item">
+                     <div class="calculator__left__list__item-name">5 000 ₽</div>
+                     <div class="calculator__left__list__item-descr">Ежемесячно</div>
+                  </div>
+                  <div class="calculator__left__list__item">
+                     <div class="calculator__left__list__item-name">В подарок</div>
+                     <div class="calculator__left__list__item-descr">Страховка и сертификат ISO</div>
+                  </div>
+               </div>
+            </div>
+            <div class="calculator__left__descr">
+               <div class="calculator__left-number">2</div>
+               <div class="calculator__left__descr-item">
+                  <div class="calculator__left__list__item-name">Cпециалисты для реестра</div>
+                  <div class="calculator__left__list__item-descr">Предоставим своих или оформим ваших</div>
+               </div>
+            </div>
+            <div class="calculator__left__descr">
+               <div class="calculator__left-number">3</div>
+               <div class="calculator__left__descr-item">
+                  <div class="calculator__left__list__item-name">Документы для СРО под ключ</div>
+                  <div class="calculator__left__list__item-descr">Подготовят наши эксперты с опытом работы более 12 лет</div>
+               </div>
+            </div>
+            <div class="calculator__left__descr">
+               <div class="calculator__left-number">4</div>
+               <div class="calculator__left__descr-item">
+                  <div class="calculator__left__list__item-name">Проверим надежность</div>
+                  <div class="calculator__left__list__item-descr">По 12 критериям (РосТехНадзор, НОСТРОЙ, спецсчета в банке и тд.)</div>
+               </div>
+            </div>
+         </div>
+         <div class="calculator__right">
+            <div class="calculator__left-title">Калькулятор стоимости СРО</div>
+            <p class="calculator__right-text">Рассчитайте стоимость вступления, ответив всего на 4 вопроса</p>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="abouth">
+   <div class="container">
+      <h2 class="title">О компании</h2>
+      <div class="abouth__wrapper">
+         <div class="abouth__item">
+            <p class="abouth__text">
+               Деловой партнер - надежный партнер, который постоянно рядом. Для нас нет нерешаемых задач, отсутствуют шаблонные подходы. Обращаясь в нашу компанию, будьте уверены, что проблема решится в кратчайшее время. 6 лет работы на рынке и сотни довольных клиентов - лишнее тому подтверждение. Работаем с надеждой на долгосрочное сотрудничество, а не достижение временного результата.
+            </p>
+            <div class="abouth__list">
+               <div class="abouth__list-item">
+                  <div class="abouth__list-item-number">6</div>
+                  <div class="abouth__list-item-descr">лет работы <br>на рынке СРО</div>
+               </div>
+               <div class="abouth__list-item">
+                  <div class="abouth__list-item-number">438</div>
+                  <div class="abouth__list-item-descr">допусков выдали <br>с 2016 года</div>
+               </div>
+               <div class="abouth__list-item">
+                  <div class="abouth__list-item-number">30</div>
+                  <div class="abouth__list-item-descr">дней среднее <br>время вступления</div>
+               </div>
+            </div>
+         </div>
+         <div class="abouth__item abouth__item-2">
+            <a href="#" class="abouth__link">Свидетельство
+               об аккредитации</a>
+            <div class="abouth__link-descr">PDF - 2,3 МБ</div>
+            <a href="#" class="abouth__link">Лицензия на право оказания образовательных услуг</a>
+            <div class="abouth__link-descr">PDF - 1,4 МБ</div>
+            <a href="#" class="abouth__link">Регистрация системы добровольной сертификации</a>
+            <div class="abouth__link-descr">PDF - 1,6 МБ</div>
+         </div>
+      </div>
+   </div>
+</section>
+      <section class="partners">
+   <div class="container">
+      <h2 class="title partners__title">Наши партнеры</h2>
+      <div class="swiper partners__swiper">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide">
+            <div class="partners__rectagle">
+               <div class="partners__img" data-fancybox="partners" href="img/part1.png">
+                  <img src="img/part1.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle">
+               <div class="partners__img" data-fancybox="partners" href="img/part2.png">
+                  <img src="img/part2.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part3.jpg">
+               <div class="partners__img">
+                  <img src="img/part3.jpg" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part4.jpg">
+               <div class="partners__img">
+                  <img src="img/part4.jpg" alt="">
+                  <div class="partners__text">АССОЦИАЦИЯ САМОРЕГУЛИРУЕМАЯ ОРГАНИЗАЦИЯ
+                     МежРегионПроект</div>
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part1.png">
+               <div class="partners__img">
+                  <img src="img/part1.png" alt="">
+               </div>
+            </div>
+           </div>
+           <div class="swiper-slide">
+            <div class="partners__rectagle" data-fancybox="partners" href="img/part2.png">
+               <div class="partners__img">
+                  <img src="img/part2.png" alt="">
+               </div>
+            </div>
+           </div>
+        </div>
+        <div class="partners__swiper-next"></div>
+        <div class="partners__swiper-prev"></div>
+      </div>
+   </div>
+</section>
+      <section class="quality">
+   <div class="container">
+      <h2 class="title quality__title">Качества нашей работы - это довольные клиенты</h2>
+      <div class="swiper quality__slider">
+        <div class="swiper-wrapper">
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+           <div class="swiper-slide" data-fancybox="quality" href="img/image-22.jpg">
+            <img src="img/image-22.jpg" alt="">
+           </div>
+        </div>
+        <div class="quality__slider-next"></div>
+        <div class="quality__slider-prev"></div>
+      </div>
+   </div>
+</section>
+      <section class="question">
+   <div class="container">
+      <h2 class="title">Частые вопросы</h2>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Как на сайте СРО строителей заказчик актуальную информацию по юридическому лицу, включенному в вашу СРО?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex iure, porro optio repellendus aut laborum, minima minus rerum nam a necessitatibus hic corporis amet odit consequatur? Laboriosam aspernatur voluptas beatae?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Мы вступили в СРО, заказчик запросил подтверждающий документ. Какая стоимость выписки СРО и как долго ее получать?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium aut magnam eaque ad quisquam deserunt dolorum, laudantium, nobis unde optio amet qui quaerat voluptas repellat quis eos illo. Cumque, eum?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Если компания зарегистрирована в Башкортостане, может ли она вступить в СРО Татарстана?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique vero dignissimos explicabo quis quas, nihil rerum doloribus assumenda consequuntur, eum placeat, et corrupti voluptatem dolorem quia tenetur facere natus voluptatibus!</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">В какие сроки мы можем вступить в СРО строителей?</div>
+            <div class="question__item-answer">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quod omnis aut deleniti numquam autem ipsam consequuntur eaque iusto, architecto maxime recusandae, tempore, culpa sit impedit voluptatum laborum aliquam! Repudiandae, sed!</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Как на сайте СРО строителей заказчик актуальную информацию по юридическому лицу, включенному в вашу СРО?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis suscipit maxime aperiam temporibus officiis, ab alias tenetur illum repellendus, a et quisquam voluptates, omnis sed. Suscipit magnam consequuntur provident facilis.</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+      <div class="question__items">
+         <div class="question__item-left">
+            <div class="question__item-quest">Мы вступили в СРО, заказчик запросил подтверждающий документ. Какая стоимость выписки СРО и как долго ее получать?</div>
+            <div class="question__item-answer">Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem, mollitia laboriosam ipsam dolorem necessitatibus fugiat nulla magni omnis nemo quia deserunt expedita sit dignissimos ullam porro id possimus! Dolor, dolorum?</div>
+         </div>
+         <div class="question__item-right">
+            <img loading="lazy" src="img/svg/questionArrow.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+      <hr class="question__hr">
+   </div>
+</section>
+      <section class="contacts">
+   <div class="container">
+      <h2 class="title">Контакты</h2>
+      <div class="contacts__items">
+         <div class="contacts__links">
+         <p class="contacts__links-text">Свяжитесь с нами удобным для вас способом, и мы ответим на все ваши вопросы</p>
+         <div class="contacts__links-name">Телефон:</div>
+         <a href="tel:+78002226120" class="contacts__links-link">+7 (800) 222 6120</a>
+         <div class="contacts__links-name">Почта:</div>
+         <a href="mailto:info@vdpartner.ru" class="contacts__links-link">info@vdpartner.ru</a>
+         <div class="contacts__links-name">Социальные сети:</div>
+         <div class="contacts__links-social">
+            <a href="#" class="contacts__links-watsap">
+               <img loading="lazy" src="img/svg/wa.svg" class="image" width="" height="" alt="">
+            </a>
+            <a href="#" class="contacts__links-telegram">
+               <img loading="lazy" src="img/svg/tg.svg" class="image" width="" height="" alt="">
+            </a>
+            <a href="#" class="contacts__links-viber">
+               <img loading="lazy" src="img/svg/vb.svg" class="image" width="" height="" alt="">
+            </a>
+         </div>
+         </div>
+         <div class="contacts__map">
+            <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A257e370dd3d11d1389ec21f479d67b70284de3e5ff28ae346d513914dbad6436&amp;source=constructor" width="790" height="325" frameborder="0"></iframe>
+         </div>
+      </div>
+   </div>
+</section>
+    </main>
+
+    <footer class="footer">
+  <div class="container">
+   <div class="footer__menu">
+      <div class="footer__links">
+         <div class="footer__links-logo">
+            <a href="#"><img loading="lazy" src="img/svg/footerLogo.svg" class="image" width="" height="" alt=""></a>
+         </div>
+         <div class="footer__links-inn">
+            <p class="footer-text">ИНН 7814562777</p>
+         </div>
+         <div class="footer__links-ogrn">
+            <p class="footer-text">ОГРН 1127847062805</p>
+         </div>
+         <div class="footer__links__contacts">
+            <div class="footer__links__contacts-label">Контакты</div>
+            <div class="footer__links__contacts-name">Телефон:</div>
+            <a href="tel:+78002226120" class="footer__links__contacts-link">+7 (800) 222 6120</a>
+            <div class="footer__links__contacts-name">Почта:</div>
+            <a href="mailto:info@vdpartner.ru" class="footer__links__contacts-link">info@vdpartner.ru</a>
+            <div class="footer__links__contacts-name">Социальные сети:</div>
+            <div class="footer__links__contacts-social">
+               <a href="#" class="footer__links__contacts-watsap">
+                  <img loading="lazy" src="img/svg/wa.svg" class="image" width="" height="" alt="">
+               </a>
+               <a href="#" class="footer__links__contacts-telegram">
+                  <img loading="lazy" src="img/svg/tg.svg" class="image" width="" height="" alt="">
+               </a>
+               <a href="#" class="footer__links__contacts-viber">
+                  <img loading="lazy" src="img/svg/vb.svg" class="image" width="" height="" alt="">
+               </a>
+            </div>
+         </div>
+         <a class="footer__links-btn popup__open">Оставить заявку</a>
+      </div>
+      <div class="footer__nav">
+         <div class="footer__nav-name">Навигация</div>
+         <nav class="footer__nav__items">
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">СРО</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Строительное СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Проектное СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">СРО изыскания</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Вступление в СРО</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сопровождение проверок СРО</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">НРС</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС строителей(Нострой)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС проектировщиков (Ноприз)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Специалисты НРС изыскателей(Ноприз)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Внесение в НРС</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Услуги по подбору специалистов НРС</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Лицензии</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Лицензия МЧС</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия Минкульта</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Атомная лицензия</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия на опасные отходы 1-4 класс</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Лицензия на черные 
+                     и цветные металлы</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Охрана труда</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Специальная оценка условий труда(СОУТ)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Оценка профессиональных рисков (ОПР)</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Система управления охраной труда(СУОТ)</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Сертификаты</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">ИСО 9001, 14001, 45001, 50001</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты по пожарной безопасности</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты по промышленной безопасности</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификаты на продукцию</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Оценка(индекс) деловой репутации</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Сертификат судебного эксперта</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Разработка технических условий</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Отказное письмо</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">Обучение</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Охрана труда</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Пожарная безопасность</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Охрана труда на высоте</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Повышение квалификации</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Рабочие профессии</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Профессиональная переподготовка</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Неразрушающий контроль</li>
+               </a>
+            </ul>
+            <ul class="footer__nav-list">
+               <li class="footer__nav__item-name">О компании</li>
+               <a href="#">
+                  <li class="footer__nav__item-text">Контакты</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Отзывы</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Блог</li>
+               </a><a href="#">
+                  <li class="footer__nav__item-text">Главная</li>
+               </a>
+            </ul>
+         </nav>
+      </div>
+   </div>
+   <hr class="footer__hr">
+   <div class="footer__policy">
+      <a href="#" class="footer__policy-partner">© Деловой партнер. Все права защищены</a>
+      <a href="#" class="footer__policy-politic">Политика конфиденциальности</a>
+   </div>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <div class="popup">
+   <div class="container">
+      <div class="popup__modal">
+         <div class="popup__title">Оставьте заявку </div>
+         <p class="popup__text">Оставьте свои контактные данные и наш менеджер свяжется с вами в ближайшее время и проведет бесплатную консультацию</p>
+         <form action="#" class="popup__form">
+            <label class="form__label">
+               <input type="text" name="Имя" class="input-reset form__input" placeholder="Ваше имя" required>
+             </label>
+             <label class="form__label">
+                 <input type="tel" name="Телефон" class="input-reset form__input" placeholder="Телефон" required>
+            </label>
+             <button class="application__form__btn">Оставить заявку</button>
+             <div class="application__form-checkbox">
+                 <label for="form__label" class="check">
+                    <input type="checkbox" checked="yes" required>
+                 </label>
+                 <p class="application__form-text">При нажатии на кнопку, вы соглашаетесь с политикой <a href="#">конфиденциальности сайта</a></p>
+             </div>
+         </form>
+         <div class="popup__close">
+            <img loading="lazy" src="img/svg/close.svg" class="image" width="" height="" alt="">
+         </div>
+      </div>
+   </div>
+</div>
+  </div>
+</body>
+
+</html>

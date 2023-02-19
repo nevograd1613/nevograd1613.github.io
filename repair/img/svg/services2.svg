@@ -1,0 +1,21 @@
+<svg width="99" height="111" viewBox="0 0 99 111" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M57.5 21.5V23H59H71.5V106C71.5 107.933 69.933 109.5 68 109.5H6C3.51472 109.5 1.5 107.485 1.5 105V11C1.5 9.067 3.067 7.5 5 7.5H57.5V21.5ZM60.5 20V9.79317L65.3856 15.0045L69.715 20H60.5Z" fill="white" stroke="#303030" stroke-width="3"/>
+<path d="M63.5 15.5V17H65H77.5V100C77.5 101.933 75.933 103.5 74 103.5H12C9.51472 103.5 7.5 101.485 7.5 99V5C7.5 3.067 9.067 1.5 11 1.5H63.5V15.5ZM66.5 14V3.79317L71.3856 9.00449L75.715 14H66.5Z" fill="white" stroke="#303030" stroke-width="3"/>
+<path d="M18 48L67 48" stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 55L67 55" stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 62L67 62" stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M18 69H43" stroke="#303030" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<g clip-path="url(#clip0_44_1407)">
+<rect x="16" y="11" width="20" height="20" rx="10" fill="white"/>
+<circle cx="26" cy="27" r="5.25" stroke="#11283C" stroke-width="1.5"/>
+<circle cx="26" cy="19" r="2.25" stroke="#11283C" stroke-width="1.5"/>
+</g>
+<rect x="17" y="12" width="18" height="18" rx="9" stroke="#11283C" stroke-width="2"/>
+<path d="M60 83L63.1714 75.0714L78.5 59.7429L89.6 48.6429L92.2429 46L97 50.7571L94.3571 53.4L83.2571 64.5L67.9286 79.8286L60 83Z" fill="white"/>
+<path d="M63.1714 75.0714L60 83L67.9286 79.8286M63.1714 75.0714L67.9286 79.8286M63.1714 75.0714L78.5 59.7429M67.9286 79.8286L83.2571 64.5M94.3571 53.4L97 50.7571L92.2429 46L89.6 48.6429M94.3571 53.4L97 56.0429L85.9 67.1429M94.3571 53.4L89.6 48.6429M94.3571 53.4L83.2571 64.5M89.6 48.6429L78.5 59.7429M78.5 59.7429L83.2571 64.5" stroke="#11283C" stroke-width="2.11429" stroke-linecap="round" stroke-linejoin="round"/>
+<defs>
+<clipPath id="clip0_44_1407">
+<rect x="16" y="11" width="20" height="20" rx="10" fill="white"/>
+</clipPath>
+</defs>
+</svg>
